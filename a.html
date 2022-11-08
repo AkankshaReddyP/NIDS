@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <style>
+        table{
+            width: 80%;
+            text-align: center;
+            font-size: 30px;
+            background-color: paleturquoise;
+        }
+        #tot{
+            color: red; 
+            width: 60%;
+            position: absolute;
+            bottom:10%;
+            right:10%;
+        }
+        #pay{
+            position: absolute;
+            bottom:5%;
+            right:20%;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>Items added, shop <a href="catlog1.html">more</a></h3>
+    <h3>Your Cart contains: </h3>
+    <table border="2">
+        <tr>
+            <th>item name</th>
+            <th>price</th>
+            <th>quantity</th>
+        </tr>
+        <tr>
+            <td>flute</td>
+            <td>$5.79</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>bike</td>
+            <td>$600.99</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table id="tot">
+        <tr>
+            <th>
+                TOTAL:
+            </th>
+            <th>$612.57</th>
+        </tr>
+    </table>
+    <form action="#">
+        <button id="pay" style="width: 100px; height:30px">PAY NOW
+        </button>
+    </form>
+</body>
+</html>
